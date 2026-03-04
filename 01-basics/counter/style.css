@@ -1,0 +1,24 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Segoe UI';
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: bisque;
+}
