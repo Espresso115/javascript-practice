@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#222;
+}
+
+canvas{
+    border-radius:10px;
+    box-shadow:0px 10px 30px rgba(0,0,0,0.5);
+}
+
+#board{
+    background-image: url("./assets/flappybirdbg.png");
+}
